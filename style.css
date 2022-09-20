@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+     width: 100%;
+     height: 115vh;
+     background-color: #181818;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     border: none;
+     border-radius: 5px;
+     padding: 0 0 25px 0;
+     position: relative;
+     overflow: hidden;
+}
+
+.bg-container {
+     width: 33%;
+     height: 90%;
+     transform: rotate(-15deg);
+     position: absolute;
+     right: 0%;
+     top: 12%;
+     overflow: hidden;
+}
+
+.bg-container img {
+     width: 100%;
+     position: relative;
+     border-radius:  50px 0px 0px 50px ;
+}
+
+.container {
+     width: 96%;
+     height: 98%;
+}
+
+nav {
+     width: 100%;
+     height: 50px;
+     background: #fffc00;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to bottom, #fffc00, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to bottom, #fffb00,#fada09,#f6da09, #fffb00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px 15px;
+     position: fixed;
+     top: 0;
+     z-index: 1;
+}
+
+.nav-left {
+     width: 60%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.nav-left img {
+     width: 50px;
+}
+
+.nav-left ul {
+     width: 80%;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     list-style: none;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.nav-right {
+     width: 16%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: #c8c0c0 1px solid;
+     padding: 5px 3px;
+     border-radius: 5px;
+}
+
+.nav-right i {
+     font-size: 20px
+}
+
+.login-btn {
+     width: 50px;
+     padding: 4px 1px;
+     border: none;
+     border-radius: 4px;
+     color: beige;
+     background-color:#181818;
+     font-size: 13px;
+     font-weight: 500;
+}
+button{
+     cursor: pointer;
+}
+
+/* HERO-SECTION */
+
+.hero-section {
+     width: 100%;
+     height: 100%;
+     color: white;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.hero-section h1 {
+     color: #fff;
+     font-size: 130px;
+     font-weight: 700;
+     margin-top: 35px;
+}
+
+.hero-section h2 {
+     color: #accafe;
+     font-size: 100px;
+     font-weight: 500;
+}
+
+.hero-section p {
+     color: darkgrey;
+     font-size: 20px;
+     font-weight: 400;
+     margin-bottom: 35px;
+}
+
+.shoping-btn {
+     width: 160px;
+     padding: 13px 5px;
+     color: #fff;
+     background: #4B79A1;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #2c475c, #4B79A1 #c8d5ec);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     font-size: 16px;
+     font-weight: 500;
+     border: none;
+     border-radius: 5px;
+}
+
+.hero-section span a {
+     text-decoration: none;
+     font-size: 17px;
+     font-weight: 400;
+     color: whitesmoke;
+}
+
+.hero-section span a i {
+     font-size: 26px;
+}
+
+.hero-section span {
+     margin-bottom: 50px;
+}
+
+/* POP-UP */
+.offer-popup {
+     width: 500px;
+     height: 120px;
+     border: none;
+     border-radius: 5px;
+     background-color: #283E51;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 5px;
+
+}
+
+.offer-popup span {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+
+}
+
+.offer-popup img {
+
+     width: 70px;
+
+}
+
+.offer-popup span h2 {
+
+     font-size: 20px;
+     color: #fff;
+     font-weight: 600;
+}
+
+.offer-popup span h3 {
+
+     font-size: 16px;
+     color: #fff;
+     font-weight: 600;
+}
+
+.offer-popup span i {
+
+     font-size: 25px;
+     color: #fff;
+     font-weight: 600;
+}
+
+.offer-popup span a {
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 600;
+     color: darkgoldenrod;
+}
